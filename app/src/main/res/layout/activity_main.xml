@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/linear_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <com.example.android_intensiv_4.ClockView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="20dp"
+        app:hourHandColor="#F44336"
+        app:minuteHandColor="@color/teal_700"
+        app:secondHandColor="@color/yellow"
+        app:secondHandSize="0dp"
+        app:hourHandSize="0dp"
+        app:minuteHandSize="0dp"
+        app:secondHandWidth="0dp"
+        app:hourHandWidth="0dp"
+        app:minuteHandWidth="0dp"/>
+</LinearLayout>
